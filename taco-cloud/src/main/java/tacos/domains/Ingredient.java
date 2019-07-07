@@ -1,29 +1,30 @@
 package tacos.domains;
 
-import lombok.Data;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
-
-@Data
-@RequiredArgsConstructor
 public class Ingredient {
+  
+  public Ingredient(String id, String name, Type type) {
+	  this.id = id;
+	  this.name = name;
+	  this.type = type;
+  }
 
-	@NonNull private final String id;
-	@NonNull private final String name;
-	@NonNull private final Type type;
+  private final String id;
+  private final String name;
+  private final Type type;
+  
+  public static enum Type {
+    WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
+  }
 
-	public static enum Type {
-		WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
-	}
+public Object getType() {
+	return this.type;
+}
 
-	public Ingredient(String id, String name, Type type) {
-		this.id = id;
-		this.name = name;
-		this.type = type;
-	}
+public String getName() {
+	return this.name;
+}
 
-	public Object getType() {
-		return this.type;
-	}
-
+public String getId() {
+	return this.id;
+}
 }
