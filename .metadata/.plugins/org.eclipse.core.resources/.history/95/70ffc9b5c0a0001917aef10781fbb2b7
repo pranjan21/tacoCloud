@@ -64,8 +64,9 @@ public void addIngredientsToModel(Model model) {
   @PostMapping
   public static String processDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, Model model) {
     if (errors.hasErrors()) {
+    	 Logger.info("this is an error");
 
-    	return "redirect:/orders/current";
+    	return "design";
     }
 
     // Save the taco design...

@@ -26,7 +26,7 @@ public class Taco {
 
   }
 
-  public List<Ingredient> getIngredients() {
+public List<Ingredient> getIngredients() {
 	  return this.ingredients;
   }
   

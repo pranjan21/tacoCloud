@@ -1,0 +1,35 @@
+package tacos;
+
+public class Order {
+
+	public String name;
+	public String street;
+	public String city;
+	public String state;
+	public String zip;
+	public String ccNumber;
+	public String ccExpiration;
+	public String ccCVV;
+	 
+	public Order(String name, 
+			String street, 
+			String city,
+			String state, 
+			String zip,
+			String ccNumber,
+			String ccExpiration,
+			String ccCVV) {
+		this.name = name;
+		this.street = street;
+		this.city = city;
+		this.state = state;
+		this.zip = zip;
+		this.ccNumber = ccNumber;
+		this.ccExpiration = ccExpiration;
+		this.ccCVV = ccCVV;
+	}
+	
+	public Order() {
+
+	}
+}
