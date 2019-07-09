@@ -1,5 +1,7 @@
 package tacos.domains;
 
+import java.util.Date;
+
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -10,6 +12,10 @@ import org.hibernate.validator.constraints.CreditCardNumber;
 
 public class Order {
 
+	private Long id;
+	
+	private Date placedAt;
+	
 	@Size(min = 5, message = "Name should be atleast 5 characters long")
 	private String name;
 	
@@ -34,7 +40,9 @@ public class Order {
 	@Digits(integer = 3, fraction = 0, message = "cVV number should be only digits")
 	private String ccCVV;
 	 
-	public Order(String name, 
+	public Order(Long id, 
+			Date placedAt,
+			String name, 
 			String street, 
 			String city,
 			String state, 
@@ -42,6 +50,8 @@ public class Order {
 			String ccNumber,
 			String ccExpiration,
 			String ccCVV) {
+		this.id = id;
+		this.placedAt = placedAt;
 		this.name = name;
 		this.street = street;
 		this.city = city;
@@ -54,6 +64,14 @@ public class Order {
 	
 	public Order() {
 
+	}
+	
+	public Long getId() {
+		return this.id;
+	}
+	
+	public Date getPlacedAt() {
+		return this.placedAt;
 	}
 	
 	public String getName() {
