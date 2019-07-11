@@ -1,6 +1,7 @@
 package tacos.domains;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
@@ -9,12 +10,11 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.CreditCardNumber;
 
-
 public class Order {
 
 	private Long id;
-	
 	private Date placedAt;
+	private List<Taco> tacos;
 	
 	@Size(min = 5, message = "Name should be atleast 5 characters long")
 	private String name;
@@ -104,6 +104,26 @@ public class Order {
 	
 	public String getccCVV() {
 		return ccCVV;
+	}
+
+	public void setPlacedAt(Date date) {
+		this.placedAt = date;
+	}
+
+	public void setId(long orderId) {
+		this.id = orderId;
+	}
+
+	public List<Taco> getTacos() {
+		return this.tacos;
+	}
+
+	public void setTacos(List<Taco> tacos) {
+		this.tacos = tacos;
+	}
+	
+	public void addTaco(Taco taco) {
+		this.tacos.add(taco);
 	}
 }
 

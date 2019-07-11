@@ -27,7 +27,7 @@ public class JdbcTacoRepository implements TacoRepository {
 	@Override
 	public Taco save(Taco taco) {
 
-		long id = setTacoInfo(taco);
+		long id = saveTacoInfo(taco);
 		taco.setId(id);
 		for (Ingredient ingredient : taco.getIngredients()) {
 			this.saveIngredientToTaco(taco, ingredient);
@@ -36,7 +36,7 @@ public class JdbcTacoRepository implements TacoRepository {
 		return taco;
 	}
 
-	private long setTacoInfo(Taco taco) {
+	private long saveTacoInfo(Taco taco) {
 		
 		taco.setCreatedAt(new Date());
 		PreparedStatementCreator psc =
