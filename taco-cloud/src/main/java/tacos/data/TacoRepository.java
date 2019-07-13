@@ -1,10 +1,11 @@
 package tacos.data;
 
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import tacos.domains.Taco;
 
 @Repository
-public interface TacoRepository {
-	public Taco save(Taco taco);
+public interface TacoRepository extends CrudRepository<Taco, Long> {
+
 }

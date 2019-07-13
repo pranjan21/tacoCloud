@@ -1,30 +1,45 @@
 package tacos.domains;
 
-public class Ingredient {
-  
-  public Ingredient(String id, String name, Type type) {
-	  this.id = id;
-	  this.name = name;
-	  this.type = type;
-  }
+import java.io.Serializable;
 
-  private final String id;
-  private final String name;
-  private final Type type;
-  
-  public static enum Type {
-    WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
-  }
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Id;
 
-public Object getType() {
-	return this.type;
-}
+import lombok.AccessLevel;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
-public String getName() {
-	return this.name;
-}
+@Data
+@NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
+@Entity
+public class Ingredient implements Serializable {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id
+    private String id;
+    private String name;
+    @Enumerated(EnumType.STRING)
+    private Type type;
 
-public String getId() {
-	return this.id;
-}
+
+    public enum Type {
+        WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
+    }
+    
+    public Object getType() {
+    	return this.type;
+    }
+
+    public String getName() {
+    	return this.name;
+    }
+
+    public String getId() {
+    	return this.id;
+    }
 }

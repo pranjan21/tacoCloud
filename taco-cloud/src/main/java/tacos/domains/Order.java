@@ -1,8 +1,16 @@
 package tacos.domains;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.PrePersist;
+import javax.persistence.Table;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -10,36 +18,43 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.CreditCardNumber;
 
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="Taco_Order")
 public class Order {
 
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 	private Date placedAt;
-	private List<Taco> tacos;
+	
+	@ManyToMany(targetEntity=Taco.class)
+	private List<Taco> tacos = new ArrayList<>();
 	
 	@Size(min = 5, message = "Name should be atleast 5 characters long")
 	private String name;
 	
-	@NotBlank(message = "The street name should not be blank")
+	@Size(min = 2, message = "Streeet should be atleast 5 characters long")
 	private String street;
-	
-	@NotBlank(message = "The city name should not be blank")
+
+	@Size(min = 2, message = "city should be atleast 5 characters long")
 	private String city;
 	
-	@NotBlank(message = "The state name should not be blank")
+	@Size(min = 2, message = "state should be atleast 5 characters long")
 	private String state;
 	
-	@NotBlank(message = "The zip name should not be blank")
+	@Size(min = 2, message = "zip should be atleast 5 characters long")
 	private String zip;
 	
-	@CreditCardNumber(message = "The credit card number is not valid")
 	private String ccNumber;
 	
-	@Pattern(regexp = "^(0[1-9]|1[0-2])([\\/])([1-9][0-9])$", message = "Must be formatted MM/YY")
 	private String ccExpiration;
 	
 	@Digits(integer = 3, fraction = 0, message = "cVV number should be only digits")
 	private String ccCVV;
-	 
+	
 	public Order(Long id, 
 			Date placedAt,
 			String name, 
@@ -70,22 +85,57 @@ public class Order {
 		return this.id;
 	}
 	
+	public void setId(long orderId) {
+		this.id = orderId;
+	}
+
 	public Date getPlacedAt() {
 		return this.placedAt;
+	}
+	
+	public void setPlacedAt(Date date) {
+		this.placedAt = date;
+	}
+
+	@PrePersist
+	public void placedAt() {
+		this.placedAt = new Date();
 	}
 	
 	public String getName() {
 		return this.name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
 	public String getStreet() {
 		return this.street;
 	}
+	
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	
 	
 	public String getCity() {
 		return this.city;
 	}
 	
+	
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public void setZip(String zip) {
+		this.zip = zip;
+	}
 	public String getState() {
 		return this.state;
 	}
@@ -97,21 +147,37 @@ public class Order {
 	public String getccNumber() {
 		return ccNumber;	
 	}
-	
+	public String getCcNumber() {
+		return ccNumber;
+	}
+
+	public void setCcNumber(String ccNumber) {
+		this.ccNumber = ccNumber;
+	}
+
+	public String getCcExpiration() {
+		return ccExpiration;
+	}
+
+	public void setCcExpiration(String ccExpiration) {
+		this.ccExpiration = ccExpiration;
+	}
+
+	public String getCcCVV() {
+		return ccCVV;
+	}
+
+	public void setCcCVV(String ccCVV) {
+		this.ccCVV = ccCVV;
+	}
+
+
 	public String getccExpiration() {
 		return ccExpiration;
 	}
 	
 	public String getccCVV() {
 		return ccCVV;
-	}
-
-	public void setPlacedAt(Date date) {
-		this.placedAt = date;
-	}
-
-	public void setId(long orderId) {
-		this.id = orderId;
 	}
 
 	public List<Taco> getTacos() {
@@ -122,8 +188,10 @@ public class Order {
 		this.tacos = tacos;
 	}
 	
+	 
 	public void addTaco(Taco taco) {
 		this.tacos.add(taco);
 	}
+
 }
 

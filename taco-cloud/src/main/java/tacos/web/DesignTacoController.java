@@ -38,11 +38,6 @@ public class DesignTacoController {
 	public Order oder() {
 		return new Order();
 	}
-	
-	@ModelAttribute(name = "design")
-	public Taco design() {
-		return new Taco();
-	}
 
 	@ModelAttribute
 	public void getIngredients(Model model) {
@@ -60,23 +55,24 @@ public class DesignTacoController {
 
 	@GetMapping
 	public String showDesignForm(Model model) {
-		model.addAttribute("design", new Taco());
+		model.addAttribute("taco", new Taco("All the taco"));
 		return "design";
 	}
 
 	 @PostMapping
 	 public String processDesign(
-			 @Valid Taco design, 
+			 @Valid Taco taco, 
 			 Errors errors,
 			 @ModelAttribute Order order) {
 		 if (errors.hasErrors()) {
 			 return "design";
 		 }
-		 Taco saved = tacoRepo.save(design);
+		 Taco saved = tacoRepo.save(taco);
 		 order.addTaco(saved);
+		 
+		 System.out.print("It reached here");
 		 return "redirect:/orders/current";
 	 }
-
 
 	private List<Ingredient> filterByType(
 			List<Ingredient> ingredients, Type type) {
