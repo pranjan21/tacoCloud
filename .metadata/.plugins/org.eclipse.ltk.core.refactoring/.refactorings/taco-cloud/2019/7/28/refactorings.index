@@ -6,3 +6,5 @@
 1562572476176	Move compilation unit
 1562572576430	Rename package 'web'
 1562845229946	Encapsulate field 'tacos'
+1563029114409	Delete elements
+1563033354170	Encapsulate field 'name'
