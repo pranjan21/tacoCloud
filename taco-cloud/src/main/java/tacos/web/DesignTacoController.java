@@ -21,65 +21,65 @@ import tacos.domains.Ingredient.Type;
 import tacos.domains.Order;
 import tacos.domains.Taco;
 
-@Controller
-@RequestMapping("/design")
-@SessionAttributes("order")
+//@Controller
+//@RequestMapping("/design")
+//@SessionAttributes("order")
 public class DesignTacoController {
-
-	private final IngredientRepository ingredientRepo;
-	private final TacoRepository tacoRepo;
-	
-	public DesignTacoController(IngredientRepository ingredientRepo, TacoRepository tacoRepo) {
-		this.ingredientRepo = ingredientRepo;
-		this.tacoRepo = tacoRepo;
-	}
-	
-	@ModelAttribute(name = "order")
-	public Order oder() {
-		return new Order();
-	}
-
-	@ModelAttribute
-	public void getIngredients(Model model) {
-		
-		List<Ingredient> ingredients = (List<Ingredient>) this.ingredientRepo.findAll();
-	
-		Type[] types = Ingredient.Type.values();
-		
-		
-		for (Type type: types) {
-			model.addAttribute(type.toString().toLowerCase(), 
-					filterByType(ingredients, type) );
-		}
-	}
-
-	@GetMapping
-	public String showDesignForm(Model model) {
-		model.addAttribute("taco", new Taco("All the taco"));
-		return "design";
-	}
-
-	 @PostMapping
-	 public String processDesign(
-			 @Valid Taco taco, 
-			 Errors errors,
-			 @ModelAttribute Order order) {
-		 if (errors.hasErrors()) {
-			 return "design";
-		 }
-		 Taco saved = tacoRepo.save(taco);
-		 order.addTaco(saved);
-		 
-		 System.out.print("It reached here");
-		 return "redirect:/orders/current";
-	 }
-
-	private List<Ingredient> filterByType(
-			List<Ingredient> ingredients, Type type) {
-		return ingredients
-				.stream()
-				.filter(x -> x.getType().equals(type))
-				.collect(Collectors.toList());
-	}
-
+//
+//	private final IngredientRepository ingredientRepo;
+//	private final TacoRepository tacoRepo;
+//
+//	public DesignTacoController(IngredientRepository ingredientRepo, TacoRepository tacoRepo) {
+//		this.ingredientRepo = ingredientRepo;
+//		this.tacoRepo = tacoRepo;
+//	}
+//
+//	@ModelAttribute(name = "order")
+//	public Order oder() {
+//		return new Order();
+//	}
+//
+//	@ModelAttribute
+//	public void getIngredients(Model model) {
+//
+//		List<Ingredient> ingredients = (List<Ingredient>) this.ingredientRepo.findAll();
+//
+//		Type[] types = Ingredient.Type.values();
+//
+//
+//		for (Type type: types) {
+//			model.addAttribute(type.toString().toLowerCase(),
+//					filterByType(ingredients, type) );
+//		}
+//	}
+//
+//	@GetMapping
+//	public String showDesignForm(Model model) {
+//		model.addAttribute("taco", new Taco("All the taco"));
+//		return "design";
+//	}
+//
+//	 @PostMapping
+//	 public String processDesign(
+//			 @Valid Taco taco,
+//			 Errors errors,
+//			 @ModelAttribute Order order) {
+//		 if (errors.hasErrors()) {
+//			 return "design";
+//		 }
+//		 Taco saved = tacoRepo.save(taco);
+//		 order.addTaco(saved);
+//
+//		 System.out.print("It reached here");
+//		 return "redirect:/orders/current";
+//	 }
+//
+//	private List<Ingredient> filterByType(
+//			List<Ingredient> ingredients, Type type) {
+//		return ingredients
+//				.stream()
+//				.filter(x -> x.getType().equals(type))
+//				.collect(Collectors.toList());
+//	}
+//
 }

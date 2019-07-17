@@ -14,33 +14,33 @@ import org.springframework.web.bind.support.SessionStatus;
 import tacos.data.OrderRepository;
 import tacos.domains.Order;
 
-@Controller
-@RequestMapping("/orders")
-@SessionAttributes("order")
+//@Controller
+//@RequestMapping("/orders")
+//@SessionAttributes("order")
 public class OrderController {
 
-	private OrderRepository orderRepo;
-	
-	public OrderController(OrderRepository orderRepo) {
-		this.orderRepo = orderRepo;
-	}
-	
-	@GetMapping("/current")
-	public String showCurrentOrder(Model model) {
-		model.addAttribute("order", new Order());
-		return "orderForm";
-	}
-	
-	@PostMapping
-	public String processOrder(@Valid Order order, Errors errors, SessionStatus sessionStatus) {
-		
-		if (errors.hasErrors()) {
-			return "orderForm";
-		}
-
-		this.orderRepo.save(order);
-		sessionStatus.setComplete();
-		return "redirect:/";
-	}
+//	private OrderRepository orderRepo;
+//
+//	public OrderController(OrderRepository orderRepo) {
+//		this.orderRepo = orderRepo;
+//	}
+//
+//	@GetMapping("/current")
+//	public String showCurrentOrder(Model model) {
+//		model.addAttribute("order", new Order());
+//		return "orderForm";
+//	}
+//
+//	@PostMapping
+//	public String processOrder(@Valid Order order, Errors errors, SessionStatus sessionStatus) {
+//
+//		if (errors.hasErrors()) {
+//			return "orderForm";
+//		}
+//
+//		this.orderRepo.save(order);
+//		sessionStatus.setComplete();
+//		return "redirect:/";
+//	}
 	
 }

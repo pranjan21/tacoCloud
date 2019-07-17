@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;orderForm.html&quot; tooltip=&quot;taco-cloud/src/main/resources/templates/orderForm.html&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/resources/templates/orderForm.html&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;taco-cloud/pom.xml&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/pom.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Order.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/domains/Order.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/domains/Order.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SecurityConfig.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/security/SecurityConfig.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/security/SecurityConfig.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TacoCloudApplication.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/TacoCloudApplication.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/TacoCloudApplication.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OrderController.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/web/OrderController.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/web/OrderController.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DesignTacoController.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/web/DesignTacoController.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/web/DesignTacoController.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;design.html&quot; tooltip=&quot;taco-cloud/src/main/resources/templates/design.html&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/resources/templates/design.html&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OrderRepository.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/data/OrderRepository.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/data/OrderRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;mvnw&quot; tooltip=&quot;taco-cloud/mvnw&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/mvnw&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;WebSecurityConfigurerAdapter.class&quot; tooltip=&quot;org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=taco-cloud/\/Users\/tsl075\/.m2\/repository\/org\/springframework\/security\/spring-security-config\/5.1.5.RELEASE\/spring-security-config-5.1.5.RELEASE.jar&amp;lt;org.springframework.security.config.annotation.web.configuration(WebSecurityConfigurerAdapter.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Taco.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/domains/Taco.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/domains/Taco.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Ingredient.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/domains/Ingredient.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/domains/Ingredient.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IngredientRepository.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/data/IngredientRepository.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/data/IngredientRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TacoRepository.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/data/TacoRepository.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/data/TacoRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JdbcIngredientRepository.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/data/JdbcIngredientRepository.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/data/JdbcIngredientRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JdbcTacoRepository.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/data/JdbcTacoRepository.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/main/java/tacos/data/JdbcTacoRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;NativeMethodAccessorImpl.class&quot; tooltip=&quot;jdk.internal.reflect.NativeMethodAccessorImpl&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=taco-cloud/\/Library\/Java\/JavaVirtualMachines\/jdk-9.jdk\/Contents\/Home\/lib\/jrt-fs.jar`java.base&amp;lt;jdk.internal.reflect(NativeMethodAccessorImpl.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;TaskThread.class&quot; tooltip=&quot;org.apache.tomcat.util.threads.TaskThread&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=taco-cloud/\/Users\/tsl075\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/9.0.21\/tomcat-embed-core-9.0.21.jar&amp;lt;org.apache.tomcat.util.threads(TaskThread.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WebConfigTest.java&quot; tooltip=&quot;taco-cloud/src/test/java/tacos/WebConfigTest.java&quot;>&#xA;&lt;persistable path=&quot;/taco-cloud/src/test/java/tacos/WebConfigTest.java&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_aYaKwpymEemCdYzWcAieWg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_aqCGQpymEemCdYzWcAieWg" label="%trimmedwindow.label.eclipseSDK" x="142" y="24" width="1442" height="798">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_aYaKwpymEemCdYzWcAieWg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_aqCGQpymEemCdYzWcAieWg" label="%trimmedwindow.label.eclipseSDK" x="0" y="203" width="1442" height="798">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1562057420808"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_aqCGQpymEemCdYzWcAieWg" selectedElement="_aqCtUJymEemCdYzWcAieWg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_aqCtUJymEemCdYzWcAieWg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_48o9YKPeEemhprHpc8vUQQ">
         <children xsi:type="advanced:Perspective" xmi:id="_a07usJymEemCdYzWcAieWg" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_a07usZymEemCdYzWcAieWg" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -246,8 +245,8 @@
                 <tags>categoryTag:Java</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_48o9aqPeEemhprHpc8vUQQ" containerData="8675" selectedElement="_iPFmQKVxEemjRowWy1CAVg" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_iPFmQKVxEemjRowWy1CAVg" containerData="7131" selectedElement="_i_70YaVxEemjRowWy1CAVg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_48o9aqPeEemhprHpc8vUQQ" containerData="8675" selectedElement="_48o9bKPeEemhprHpc8vUQQ" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_iPFmQKVxEemjRowWy1CAVg" containerData="7131" selectedElement="_48o9a6PeEemhprHpc8vUQQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_48o9a6PeEemhprHpc8vUQQ" elementId="org.eclipse.ui.editorss" containerData="6689" ref="_a0itIJymEemCdYzWcAieWg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_i_70YaVxEemjRowWy1CAVg" elementId="PartStack@43d2a216" containerData="3311" selectedElement="_48o9daPeEemhprHpc8vUQQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_48o9daPeEemhprHpc8vUQQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_a0xWoJymEemCdYzWcAieWg" closeable="true">
@@ -295,6 +294,7 @@
               <children xsi:type="basic:PartStack" xmi:id="_48o9bKPeEemhprHpc8vUQQ" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" containerData="1640" selectedElement="_48o9baPeEemhprHpc8vUQQ">
                 <tags>org.eclipse.e4.secondaryNavigationStack</tags>
                 <tags>General</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_48o9baPeEemhprHpc8vUQQ" elementId="org.eclipse.debug.ui.VariableView" ref="_48hooaPeEemhprHpc8vUQQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Debug</tags>
@@ -369,7 +369,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_a0itIZymEemCdYzWcAieWg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_mKC5wKWOEemDxpho0ckRKg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_5pj9UKOoEemhprHpc8vUQQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DesignTacoController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DesignTacoController.java&quot; partName=&quot;DesignTacoController.java&quot; title=&quot;DesignTacoController.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/web/DesignTacoController.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/taco-cloud/src/main/java/tacos/web/DesignTacoController.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;1972&quot; selectionTopPixel=&quot;519&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -471,8 +470,6 @@
           <tags>Editor</tags>
           <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_k6DBwKWfEemDxpho0ckRKg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SecurityConfig.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SecurityConfig.java&quot; partName=&quot;SecurityConfig.java&quot; title=&quot;SecurityConfig.java&quot; tooltip=&quot;taco-cloud/src/main/java/tacos/security/SecurityConfig.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/taco-cloud/src/main/java/tacos/security/SecurityConfig.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;730&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
@@ -690,6 +687,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Debug</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_5BK4EKPeEemhprHpc8vUQQ" elementId="org.eclipse.debug.ui.VariableView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -781,7 +780,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_arSDcJymEemCdYzWcAieWg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ogtv0KWGEemDxpho0ckRKg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_aZDrI5ymEemCdYzWcAieWg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_zgn-UKfIEem_rO6obZ-eRw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_aZDrI5ymEemCdYzWcAieWg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_arSqgJymEemCdYzWcAieWg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -812,7 +811,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_arTRkJymEemCdYzWcAieWg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ogxaMKWGEemDxpho0ckRKg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_aZDD95ymEemCdYzWcAieWg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_zgs20KfIEem_rO6obZ-eRw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_aZDD95ymEemCdYzWcAieWg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_arTRkZymEemCdYzWcAieWg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1186,9 +1185,7 @@
     </bindings>
     <bindings xmi:id="_aZvAepymEemCdYzWcAieWg" keySequence="ALT+SHIFT+D B" command="_aZE5IZymEemCdYzWcAieWg"/>
     <bindings xmi:id="_aZvAfJymEemCdYzWcAieWg" keySequence="ALT+SHIFT+D R" command="_aY_ZspymEemCdYzWcAieWg"/>
-    <bindings xmi:id="_n72vQKWGEemDxpho0ckRKg" keySequence="COMMAND+CTRL+F" command="_aaTBIZymEemCdYzWcAieWg">
-      <tags>deleted</tags>
-    </bindings>
+    <bindings xmi:id="_y4njIKfIEem_rO6obZ-eRw" keySequence="COMMAND+CTRL+F" command="_aaTBIZymEemCdYzWcAieWg"/>
   </bindingTables>
   <bindingTables xmi:id="_aZcsk5ymEemCdYzWcAieWg" elementId="org.eclipse.wst.jsdt.ui.javascriptViewScope" bindingContext="_aZIjq5ymEemCdYzWcAieWg">
     <bindings xmi:id="_aZcslJymEemCdYzWcAieWg" keySequence="ALT+COMMAND+Q D" command="_aZCc-ZymEemCdYzWcAieWg">
@@ -1595,9 +1592,7 @@
     <bindings xmi:id="_aZvAe5ymEemCdYzWcAieWg" keySequence="COMMAND+CR" command="_aY6hM5ymEemCdYzWcAieWg"/>
   </bindingTables>
   <bindingTables xmi:id="_aaToM5ymEemCdYzWcAieWg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_aYax1ZymEemCdYzWcAieWg">
-    <bindings xmi:id="_n73WUKWGEemDxpho0ckRKg" keySequence="M1+W" command="_aaToMZymEemCdYzWcAieWg">
-      <tags>deleted</tags>
-    </bindings>
+    <bindings xmi:id="_y4oKMKfIEem_rO6obZ-eRw" keySequence="M1+W" command="_aaToMZymEemCdYzWcAieWg"/>
   </bindingTables>
   <bindingTables xmi:id="_a0j7QZymEemCdYzWcAieWg" bindingContext="_a0j7QJymEemCdYzWcAieWg"/>
   <bindingTables xmi:id="_a0kiUZymEemCdYzWcAieWg" bindingContext="_a0kiUJymEemCdYzWcAieWg"/>
@@ -3317,7 +3312,7 @@
   <addons xmi:id="_aYax3pymEemCdYzWcAieWg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_aYax35ymEemCdYzWcAieWg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_aYiGkJymEemCdYzWcAieWg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_y4Q90afIEem_rO6obZ-eRw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_aaRzAJymEemCdYzWcAieWg" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler"/>
   <categories xmi:id="_aY3dwJymEemCdYzWcAieWg" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
