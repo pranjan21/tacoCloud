@@ -6,7 +6,15 @@ import tacos.domains.User;
 
 @Data
 public class RegistrationForm {
+
     private String username;
+    private String password;
+    private String fullname;
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
+    private String phone;
 
     public String getUsername() {
         return username;
@@ -71,14 +79,6 @@ public class RegistrationForm {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    private String password;
-    private String fullname;
-    private String street;
-    private String city;
-    private String state;
-    private String zip;
-    private String phone;
 
     public User toUser(PasswordEncoder passwordEncoder) {
         return new User(username,
