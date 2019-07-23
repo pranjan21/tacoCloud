@@ -1,4 +1,8 @@
 package tacos.Messaging;
 
-public class OrderRecievingService {
+import tacos.domains.Order;
+
+public interface OrderRecievingService {
+
+    public Order recieveOrder();
 }
